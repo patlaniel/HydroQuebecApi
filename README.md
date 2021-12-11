@@ -1,6 +1,6 @@
 # HydroQuebecApi
 
-C# library to fetch consumption data from the HydroQuebec site. 
+.Net core library (written in C#) to fetch consumption data from the HydroQuebec site. 
 
 It is heavily inspired by the @titilambert [pyhydroquebec Python application](https://github.com/titilambert/pyhydroquebec), especially the login process. See ACKNOWLEDGEMENTS.md.
 
