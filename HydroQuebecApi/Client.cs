@@ -11,7 +11,7 @@ using System.Web;
 namespace HydroQuebecApi
 {
 
-    public class Client
+    public class Client : IDisposable
     {
         #region URL constants
         private static readonly string HOST_LOGIN = "https://connexion.hydroquebec.com";
@@ -57,6 +57,13 @@ namespace HydroQuebecApi
         public Client()
         {
             httpClient.Timeout = TimeSpan.FromMinutes(3);
+        }
+        public void Dispose()
+        {
+            if (httpClient is not null)
+            {
+                httpClient.Dispose();
+            }
         }
 
         public async Task Login(string username, string password)
