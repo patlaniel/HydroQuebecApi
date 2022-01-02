@@ -18,7 +18,7 @@ namespace HydroQuebecApi
             await client.SelectCustomerByIndexAsync(0);
 
 
-            var periodData = client.fetchPeriodDataAsync().Result;
+            var periodData = client.FetchPeriodDataAsync().Result;
             var yearlyData = client.FetchYearlyDataAsync().Result;
             var monthlyData = client.FetchMonthlyDataAsync().Result;
             var dailyData = client.FetchDailyDataAsync(DateTime.Today.AddDays(-7), DateTime.Today.AddDays(-3)).Result;

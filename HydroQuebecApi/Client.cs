@@ -214,7 +214,7 @@ namespace HydroQuebecApi
             currentAccoutId = accountId;
             currentCustomerId = customerId;
         }
-        public async Task<IList<PeriodData>> fetchPeriodDataAsync()
+        public async Task<IList<PeriodData>> FetchPeriodDataAsync()
         {
             var results = await httpClient.HttpGetRequest<ResultArrayTemplate<PeriodData>>(PERIOD_DATA_URL, null, null);
             return results.results;
