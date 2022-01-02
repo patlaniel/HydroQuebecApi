@@ -5,10 +5,8 @@ namespace HydroQuebecApi.Models
 {
     public class AccountInfo : IEquatable<AccountInfo>
     {
-        [JsonPropertyName("noPartenaireDemandeur")]
-        public string accountId { get; set; } = null;
-        [JsonPropertyName("noPartenaireTitulaire")]
-        public string customerId { get; set; } = null;
+        [JsonPropertyName("noPartenaireDemandeur")] public string accountId { get; set; } = null;
+        [JsonPropertyName("noPartenaireTitulaire")] public string customerId { get; set; } = null;
 
         public AccountInfo(string accountId, string customerId)
         {

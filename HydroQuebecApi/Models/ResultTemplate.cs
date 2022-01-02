@@ -5,8 +5,7 @@ namespace HydroQuebecApi.Models
 {
     public class ResultWithComparison<T>
     {
-        [JsonPropertyName("courant")]
-        public T current { get; set; }
+        [JsonPropertyName("courant")] public T current { get; set; }
         public T compare { get; set; }
     }
     public class ResultArrayTemplateWithComparison<T>

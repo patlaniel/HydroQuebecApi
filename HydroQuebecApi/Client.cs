@@ -39,11 +39,12 @@ namespace HydroQuebecApi
 
         // Data URLs
         private static readonly string CONSUMPTION_PORTAL_BASE_URL = HOST_SPRING + "/portail/fr/group/clientele/portrait-de-consommation/";
+        private static readonly string PERIOD_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesPeriodesConsommation";
         private static readonly string MONTHLY_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesConsommationMensuelles";
+        private static readonly string YEARLY_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesConsommationAnnuelles";
         private static readonly string DAILY_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesQuotidiennesConsommation";
         private static readonly string HOURLY_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesConsommationHoraires";
         private static readonly string HOURLY_TEMPERATURE_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesMeteoHoraires";
-        private static readonly string PERIOD_DATA_URL = CONSUMPTION_PORTAL_BASE_URL + "resourceObtenirDonneesPeriodesConsommation";
         #endregion
 
         private List<string> customers = new List<string>();
@@ -213,23 +214,17 @@ namespace HydroQuebecApi
             currentAccoutId = accountId;
             currentCustomerId = customerId;
         }
-
-        public async Task<IList<ResultWithComparison<MonthlyData>>> FetchMonthlyDataAsync()
+        public async Task<IList<PeriodData>> fetchPeriodDataAsync()
         {
-            if (currentCustomerId == null || currentAccoutId == null)
-            {
-                throw new Exception("Custom and account must be selected");
-            }
-            var results = await httpClient.HttpGetRequest<ResultArrayTemplateWithComparison<MonthlyData>>(MONTHLY_DATA_URL, null, null);
+            var results = await httpClient.HttpGetRequest<ResultArrayTemplate<PeriodData>>(PERIOD_DATA_URL, null, null);
             return results.results;
         }
 
+        public async Task<IList<ResultWithComparison<YearlyData>>> FetchYearlyDataAsync() => await FetchDataWithComparisonAsync<YearlyData>(YEARLY_DATA_URL);
+        public async Task<IList<ResultWithComparison<MonthlyData>>> FetchMonthlyDataAsync() => await FetchDataWithComparisonAsync<MonthlyData>(MONTHLY_DATA_URL);
+
         public async Task<IList<ResultWithComparison<DailyData>>> FetchDailyDataAsync(DateTime? startDate = null, DateTime? endDate = null)
         {
-            if (currentCustomerId == null || currentAccoutId == null)
-            {
-                throw new Exception("Custom and account must be selected");
-            }
             if (endDate.HasValue && !startDate.HasValue)
             {
                 throw new ArgumentNullException(nameof(startDate));
@@ -239,9 +234,7 @@ namespace HydroQuebecApi
                 ["dateDebut"] = (startDate ?? DateTime.Today.AddDays(-1)).ToString("yyyy-MM-dd"),
                 ["dateFin"] = (endDate ?? DateTime.Today).ToString("yyyy-MM-dd")
             };
-
-            var results = await httpClient.HttpGetRequest<ResultArrayTemplateWithComparison<DailyData>>(DAILY_DATA_URL, queries, null);
-            return results.results;
+            return await FetchDataWithComparisonAsync<DailyData>(DAILY_DATA_URL, queries);
         }
 
         public async Task<HourlyCombinedData> FetchHourlyDataAsync(DateTime? date = null)
@@ -267,13 +260,15 @@ namespace HydroQuebecApi
 
             return results1.results;
         }
-
-        public async Task<IList<PeriodData>> FetchPeriodDataAsync()
+        private async Task<IList<ResultWithComparison<T>>> FetchDataWithComparisonAsync<T>(string url, Dictionary<string, string> queries = null)
         {
-            var results = await httpClient.HttpGetRequest<ResultArrayTemplate<PeriodData>>(PERIOD_DATA_URL, null, null);
+            if (currentCustomerId == null || currentAccoutId == null)
+            {
+                throw new Exception("Custom and account must be selected");
+            }
+            var results = await httpClient.HttpGetRequest<ResultArrayTemplateWithComparison<T>>(url, queries, null);
             return results.results;
         }
-
         private void Reset()
         {
             httpClient.SetAccessToken(null);
