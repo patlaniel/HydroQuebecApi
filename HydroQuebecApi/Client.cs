@@ -66,7 +66,7 @@ namespace HydroQuebecApi
             }
         }
 
-        public async Task Login(string username, string password)
+        public async Task LoginAsync(string username, string password)
         {
             Reset();
 
@@ -145,7 +145,7 @@ namespace HydroQuebecApi
         }
 
 
-        public async Task SelectCustomerByIndex(int index, bool force = false)
+        public async Task SelectCustomerByIndexAsync(int index, bool force = false)
         {
             if (Accounts.Count == 0)
             {
@@ -157,7 +157,7 @@ namespace HydroQuebecApi
                 throw new ArgumentOutOfRangeException();
             }
 
-            await SelectCustomer(Accounts[index].accountId, Accounts[index].customerId, force);
+            await SelectCustomerAsync(Accounts[index].accountId, Accounts[index].customerId, force);
         }
 
         /// <summary>
@@ -165,7 +165,7 @@ namespace HydroQuebecApi
         /// </summary>
         /// <param name="accountId"></param>
         /// <param name="customerId"></param>
-        public async Task SelectCustomer(string accountId, string customerId, bool force = false)
+        public async Task SelectCustomerAsync(string accountId, string customerId, bool force = false)
         {
             if (string.IsNullOrEmpty(accountId))
             {
@@ -214,7 +214,7 @@ namespace HydroQuebecApi
             currentCustomerId = customerId;
         }
 
-        public async Task<IList<ResultWithComparison<MonthlyData>>> FetchMonthlyData()
+        public async Task<IList<ResultWithComparison<MonthlyData>>> FetchMonthlyDataAsync()
         {
             if (currentCustomerId == null || currentAccoutId == null)
             {
@@ -224,7 +224,7 @@ namespace HydroQuebecApi
             return results.results;
         }
 
-        public async Task<IList<ResultWithComparison<DailyData>>> FetchDailyData(DateTime? startDate = null, DateTime? endDate = null)
+        public async Task<IList<ResultWithComparison<DailyData>>> FetchDailyDataAsync(DateTime? startDate = null, DateTime? endDate = null)
         {
             if (currentCustomerId == null || currentAccoutId == null)
             {
@@ -244,7 +244,7 @@ namespace HydroQuebecApi
             return results.results;
         }
 
-        public async Task<HourlyCombinedData> FetchHourlyData(DateTime? date = null)
+        public async Task<HourlyCombinedData> FetchHourlyDataAsync(DateTime? date = null)
         {
             // Get the hourly consumption data
             Dictionary<string, string> queries = new Dictionary<string, string>()
@@ -268,7 +268,7 @@ namespace HydroQuebecApi
             return results1.results;
         }
 
-        public async Task<IList<PeriodData>> FetchPeriodData()
+        public async Task<IList<PeriodData>> FetchPeriodDataAsync()
         {
             var results = await httpClient.HttpGetRequest<ResultArrayTemplate<PeriodData>>(PERIOD_DATA_URL, null, null);
             return results.results;

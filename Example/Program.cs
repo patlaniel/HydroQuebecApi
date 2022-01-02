@@ -14,14 +14,14 @@ namespace HydroQuebecApi
         static async Task Main(string[] args)
         {
             var client = new Client();
-            await client.Login(args[1], args[2]);
-            await client.SelectCustomerByIndex(0);
+            await client.LoginAsync(args[1], args[2]);
+            await client.SelectCustomerByIndexAsync(0);
 
 
-            var periodData = client.FetchPeriodData().Result;
-            var monthlyData = client.FetchMonthlyData().Result;
-            var dailyData = client.FetchDailyData(DateTime.Today.AddDays(-7), DateTime.Today.AddDays(-3)).Result;
-            var hourlyData = client.FetchHourlyData(DateTime.Today.AddDays(-7)).Result;
+            var periodData = client.FetchPeriodDataAsync().Result;
+            var monthlyData = client.FetchMonthlyDataAsync().Result;
+            var dailyData = client.FetchDailyDataAsync(DateTime.Today.AddDays(-7), DateTime.Today.AddDays(-3)).Result;
+            var hourlyData = client.FetchHourlyDataAsync(DateTime.Today.AddDays(-7)).Result;
         }
     }
 }
