@@ -7,7 +7,7 @@ namespace HydroQuebecApi.Models
     public class PeriodData
     {
         [JsonPropertyName("numeroContrat")] public string ContractNumber { get; set; }
-        [JsonPropertyName("dateFinPeriode")] public DateTime EndDate { get; set; }
+        [JsonPropertyName("dateFinPeriode")] public DateTime? EndDate { get; set; }
         [JsonPropertyName("dateDebutPeriode")] public DateTime StartDate { get; set; }
         [JsonPropertyName("dateDerniereLecturePeriode")] public DateTime? LastMeterReadDate { get; set; }
         [JsonConverter(typeof(TimeSpanJsonConverter))]
@@ -21,13 +21,13 @@ namespace HydroQuebecApi.Models
         [JsonPropertyName("moyenneKwhJourPeriode")] public double AverageDailyConsumption { get; set; }
         [JsonPropertyName("montantFacturePeriode")] public double Bill { get; set; }
         [JsonPropertyName("moyenneDollarsJourPeriode")] public double AverageDailyPrice { get; set; }
-        [JsonPropertyName("codeConsPeriode")] public string ConsumptionCode;
+        [JsonPropertyName("codeConsPeriode")] public string ConsumptionCode { get; set; }
         [JsonPropertyName("indMVEPeriode")] public bool IsEqualizedPaymentsPlan { get; set; }
-        [JsonPropertyName("tempMoyennePeriode")] public int AverageTemperature;
+        [JsonPropertyName("tempMoyennePeriode")] public int AverageTemperature { get; set; }
         [JsonPropertyName("dateDebutPeriodeComparable")] public DateTime? ComparePeriodStartDate { get; set; }
         [JsonPropertyName("indConsoAjusteePeriode")] public bool IsAdjustedConsumption { get; set; }
-        [JsonPropertyName("presenceCodeTarifDTPeriode")] public bool IsDualEnergyRate;
-        [JsonPropertyName("dernierTarif")] public string LastRateCode;
+        [JsonPropertyName("presenceCodeTarifDTPeriode")] public bool IsDualEnergyRate { get; set; }
+        [JsonPropertyName("dernierTarif")] public string LastRateCode { get; set; }
         [JsonPropertyName("presencePiscineExterieursPeriode")] public bool IsOutsidePoolPresent { get; set; }
         [JsonPropertyName("indPresenceCodeEvenementPeriode")] public bool IsEventCodePresent { get; set; }
         [JsonPropertyName("montantProjetePeriode")] public double? ForecastCost { get; set; }

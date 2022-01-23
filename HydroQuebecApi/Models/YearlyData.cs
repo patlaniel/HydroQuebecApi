@@ -18,6 +18,9 @@ namespace HydroQuebecApi.Models
         [JsonPropertyName("consoTotalAnnee")] public int TotalConsumption { get; set; }
         [JsonPropertyName("montantFactureAnnee")] public double Bill { get; set; }
         [JsonPropertyName("moyenneDollarsJourAnnee")] public double AverageDaylyCost { get; set; }
-        [JsonPropertyName("coutCentkWh")] public double KwhCost { get; set; }
+        [JsonPropertyName("coutCentkWh")] public double CostCentKWh { get; set; }
+
+
+        public YearlyData Clone() => (YearlyData)this.MemberwiseClone();
     }
 }
