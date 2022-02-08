@@ -19,8 +19,8 @@ namespace HydroQuebecApi.Models
         [JsonPropertyName("consoHautPeriode")] public int HighPriceConsumption { get; set; }
         [JsonPropertyName("consoRegPeriode")] public int RegularPriceConsumption { get; set; }
         [JsonPropertyName("moyenneKwhJourPeriode")] public double AverageDailyConsumption { get; set; }
-        [JsonPropertyName("montantFacturePeriode")] public double Bill { get; set; }
-        [JsonPropertyName("moyenneDollarsJourPeriode")] public double AverageDailyPrice { get; set; }
+        [JsonPropertyName("montantFacturePeriode")] public double? Bill { get; set; }
+        [JsonPropertyName("moyenneDollarsJourPeriode")] public double? AverageDailyPrice { get; set; }
         [JsonPropertyName("codeConsPeriode")] public string ConsumptionCode { get; set; }
         [JsonPropertyName("indMVEPeriode")] public bool IsEqualizedPaymentsPlan { get; set; }
         [JsonPropertyName("tempMoyennePeriode")] public int AverageTemperature { get; set; }
@@ -32,6 +32,6 @@ namespace HydroQuebecApi.Models
         [JsonPropertyName("indPresenceCodeEvenementPeriode")] public bool IsEventCodePresent { get; set; }
         [JsonPropertyName("montantProjetePeriode")] public double? ForecastCost { get; set; }
         [JsonPropertyName("multiplicateurFacturation")] public double BillMultiplier    { get; set; }
-        [JsonPropertyName("coutCentkWh")] public double CostCentKWh { get; set; }
+        [JsonPropertyName("coutCentkWh")] public double? CostCentKWh { get; set; }
     }
 }
