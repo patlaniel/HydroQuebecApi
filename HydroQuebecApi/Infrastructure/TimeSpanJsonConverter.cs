@@ -11,6 +11,6 @@ namespace HydroQuebecApi.Infrastructure
                 TimeSpan.ParseExact(reader.GetString()??"00:00:00", @"h\:mm\:ss", CultureInfo.InvariantCulture);
 
         public override void Write(Utf8JsonWriter writer, TimeSpan value, JsonSerializerOptions options) =>
-                throw new NotImplementedException();
+                writer.WriteStringValue(value.ToString(@"h\:mm\:ss", CultureInfo.InvariantCulture));
     }
 }
