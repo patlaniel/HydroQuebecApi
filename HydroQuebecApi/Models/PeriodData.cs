@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace HydroQuebecApi.Models
 {
-    public class PeriodData
+    public class PeriodData: IEquatable<PeriodData>
     {
         [JsonPropertyName("numeroContrat")] public string ContractNumber { get; set; }
         [JsonPropertyName("dateFinPeriode")] public DateTime? EndDate { get; set; }
@@ -33,5 +33,9 @@ namespace HydroQuebecApi.Models
         [JsonPropertyName("montantProjetePeriode")] public double? ForecastCost { get; set; }
         [JsonPropertyName("multiplicateurFacturation")] public double BillMultiplier    { get; set; }
         [JsonPropertyName("coutCentkWh")] public double? CostCentKWh { get; set; }
+
+        public bool Equals(PeriodData other) => GetHashCode() == other.GetHashCode();
+        public override bool Equals(object other) => Equals(other as PeriodData);
+        public override int GetHashCode() => StartDate.GetHashCode() ^ EndDate?.GetHashCode()??0;
     }
 }

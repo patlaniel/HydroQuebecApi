@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HydroQuebecApi.Models
 {
-    public class YearlyData
+    public class YearlyData: IEquatable<YearlyData>
     {
         [JsonPropertyName("dateDebutAnnee")] public DateTime StartDate { get; set; }
         [JsonPropertyName("dateFinAnnee")] public DateTime EndDate { get; set; }
@@ -22,5 +22,10 @@ namespace HydroQuebecApi.Models
 
 
         public YearlyData Clone() => (YearlyData)this.MemberwiseClone();
+
+        public bool Equals(YearlyData other) => GetHashCode() == other.GetHashCode();
+        public override bool Equals(object other) => Equals(other as YearlyData);
+        public override int GetHashCode() => StartDate.GetHashCode() ^ EndDate.GetHashCode();
+
     }
 }

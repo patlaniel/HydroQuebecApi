@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace HydroQuebecApi.Models
 {
-    public class DailyData
+    public class DailyData : IEquatable<DailyData>
     {
         [JsonPropertyName("dateJourConso")] public DateTime Date { get; set; }
         [JsonPropertyName("zoneMessageHTMLQuot")] public string HtmlMessageZone { get; set; }
@@ -15,5 +15,10 @@ namespace HydroQuebecApi.Models
         [JsonPropertyName("codeTarifQuot")] public string RateCode { get; set; }
         [JsonPropertyName("affichageTarifFlexQuot")] public bool IsFlexRate { get; set; }
         [JsonPropertyName("codeEvenementQuot")] public string EventCode { get; set; }
+
+        public bool Equals(DailyData other) => GetHashCode() == other.GetHashCode();
+        public override bool Equals(object other) => Equals(other as DailyData);
+        public override int GetHashCode() => Date.GetHashCode();
+
     }
 }
