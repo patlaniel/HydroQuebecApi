@@ -85,7 +85,16 @@ namespace HydroQuebecApi.Infrastructure
                 return responseStr as T;
             }
 
-            return JsonSerializer.Deserialize<T>(responseStr);
+            // Make sure that int types will be parsed correctly even if they are received as non-integer number
+            var serializeOptions = new JsonSerializerOptions
+            {
+                Converters =
+                {
+                    new Int32JsonConverter()
+                }
+            };
+
+            return JsonSerializer.Deserialize<T>(responseStr, serializeOptions);
         }
 
     }
