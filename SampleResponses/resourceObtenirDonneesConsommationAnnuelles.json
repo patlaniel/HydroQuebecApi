@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "results": [
+    {
+      "courant": {
+        "dateDebutAnnee": "2020-11-20",
+        "dateFinAnnee": "2021-11-19",
+        "nbJourCalendrierAnnee": 365,
+        "moyenneKwhJourAnnee": 57.9,
+        "consoRegAnnee": 21148,
+        "consoHautAnnee": 0,
+        "consoTotalAnnee": 21148,
+        "montantFactureAnnee": 2028.02,
+        "moyenneDollarsJourAnnee": 5.56,
+        "coutCentkWh": 9.59
+      }
+    }
+  ]
+}

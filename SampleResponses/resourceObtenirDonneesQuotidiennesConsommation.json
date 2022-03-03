@@ -1,0 +1,1123 @@
+{
+  "success": true,
+  "results": [
+    {
+      "courant": {
+        "dateJourConso": "2022-01-01",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 103.91,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 103.91,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2021-01-01",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 115.71,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 115.71,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-31",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 111.22,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 111.22,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-31",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 112.96,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 112.96,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-30",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 120.47,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 120.47,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-30",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 137.66,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 137.66,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -8,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-29",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 129.98,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 129.98,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -8,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-29",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 122.40,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 122.40,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -13,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-28",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 131.95,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 131.95,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-28",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 112.94,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 112.94,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-27",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 137.10,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 137.10,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -12,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-27",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 140.40,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 140.40,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -9,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-26",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 115.45,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 115.45,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -4,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-26",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 107.34,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 107.34,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -8,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-25",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 133.61,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 133.61,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-25",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 65.62,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 65.62,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-24",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 166.54,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 166.54,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -13,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-24",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 106.10,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 106.10,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-23",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 165.80,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 165.80,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -16,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-23",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 128.34,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 128.34,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -9,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-22",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 129.73,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 129.73,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-22",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 92.52,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 92.52,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-21",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 128.23,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 128.23,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-21",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 87.49,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 87.49,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-20",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 175.78,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 175.78,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -10,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-20",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 110.72,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 110.72,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-19",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 141.94,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 141.94,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -12,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-19",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 139.10,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 139.10,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -10,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-18",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 126.01,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 126.01,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-18",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 137.75,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 137.75,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -14,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-17",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 88.60,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 88.60,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-17",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 151.14,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 151.14,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -12,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-16",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 103.55,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 103.55,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-16",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 151.41,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 151.41,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -17,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-15",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 138.95,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 138.95,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-15",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 124.41,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 124.41,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -15,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-14",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 95.27,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 95.27,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-14",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 111.41,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 111.41,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-13",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 89.82,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 89.82,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-13",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 89.08,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 89.08,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-12",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 104.78,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 104.78,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-12",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 91.06,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 91.06,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-11",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 92.75,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 92.75,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-11",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 93.66,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 93.66,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-10",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 139.73,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 139.73,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-10",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 96.00,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 96.00,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-09",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 156.17,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 156.17,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -10,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-09",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 113.87,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 113.87,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -4,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-08",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 145.33,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 145.33,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -13,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-08",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 112.52,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 112.52,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -8,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-07",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 74.30,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 74.30,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -9,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-07",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 115.54,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 115.54,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-06",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 117.59,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 117.59,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-06",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 115.19,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 115.19,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-05",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 153.59,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 153.59,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -9,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-05",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 96.11,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 96.11,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-04",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 125.90,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 125.90,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -11,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-04",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 89.95,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 89.95,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-03",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 103.26,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 103.26,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-03",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 102.98,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 102.98,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-02",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 108.67,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 108.67,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-02",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 92.35,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 92.35,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-12-01",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 117.39,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 117.39,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -4,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-12-01",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 69.06,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 69.06,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-30",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 122.97,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 122.97,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-30",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 79.33,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 79.33,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 3,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-29",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 121.42,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 121.42,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-29",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 80.92,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 80.92,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-28",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 134.17,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 134.17,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -10,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-28",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 79.41,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 79.41,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-27",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 104.05,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 104.05,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-27",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 80.08,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 80.08,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-26",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 92.85,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 92.85,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-26",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 96.26,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 96.26,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-25",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 105.12,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 105.12,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-25",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 123.98,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 123.98,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-24",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 114.40,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 114.40,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-24",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 108.81,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 108.81,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -7,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-23",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 122.14,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 122.14,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -6,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-23",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 101.77,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 101.77,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-22",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 89.74,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 89.74,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 1,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-22",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 106.66,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 106.66,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -4,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-21",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 91.18,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 91.18,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-21",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 76.08,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 76.08,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 0,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    },
+    {
+      "courant": {
+        "dateJourConso": "2021-11-20",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 91.68,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 91.68,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": -2,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      },
+      "compare": {
+        "dateJourConso": "2020-11-20",
+        "zoneMessageHTMLQuot": null,
+        "consoRegQuot": 92.05,
+        "consoHautQuot": 0,
+        "consoTotalQuot": 92.05,
+        "codeConsoQuot": "R",
+        "tempMoyenneQuot": 5,
+        "codeTarifQuot": "D",
+        "affichageTarifFlexQuot": false,
+        "codeEvenementQuot": ""
+      }
+    }
+  ]
+}

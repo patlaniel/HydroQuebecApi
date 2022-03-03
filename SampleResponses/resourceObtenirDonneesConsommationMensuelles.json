@@ -1,0 +1,284 @@
+{
+  "success": true,
+  "results": [
+    {
+      "courant": {
+        "dateDebutMois": "2021-12-01",
+        "dateFinMois": "2021-12-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": -6,
+        "moyenneKwhJourMois": 124.8,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 3869,
+        "consoHautMois": 0,
+        "consoTotalMois": 3869,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      },
+      "compare": {
+        "dateDebutMois": "2020-12-01",
+        "dateFinMois": "2020-12-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": -5,
+        "moyenneKwhJourMois": 110.2,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 3417,
+        "consoHautMois": 0,
+        "consoTotalMois": 3417,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-11-01",
+        "dateFinMois": "2021-11-30",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 30,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 0,
+        "moyenneKwhJourMois": 89.1,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 2672,
+        "consoHautMois": 0,
+        "consoTotalMois": 2672,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      },
+      "compare": {
+        "dateDebutMois": "2020-11-01",
+        "dateFinMois": "2020-11-30",
+        "codeConsoMois": "Z",
+        "nbJourCalendrierMois": 30,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 2,
+        "moyenneKwhJourMois": 64.0,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 1919,
+        "consoHautMois": 0,
+        "consoTotalMois": 1919,
+        "zoneMessageHTMLMois": "\u003cul class\u003d\"generic\"\u003e\u003cli\u003eRemplacement du compteur\u003c/li\u003e\n\u003c/ul\u003e",
+        "indPresenceCodeEvenementMois": true
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-10-01",
+        "dateFinMois": "2021-10-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 9,
+        "moyenneKwhJourMois": 40.8,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 1263,
+        "consoHautMois": 0,
+        "consoTotalMois": 1263,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      },
+      "compare": {
+        "dateDebutMois": "2020-10-01",
+        "dateFinMois": "2020-10-31",
+        "codeConsoMois": "Z",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 6,
+        "moyenneKwhJourMois": 47.0,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 1458,
+        "consoHautMois": 0,
+        "consoTotalMois": 1458,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-09-01",
+        "dateFinMois": "2021-09-30",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 30,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 14,
+        "moyenneKwhJourMois": 14.2,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 425,
+        "consoHautMois": 0,
+        "consoTotalMois": 425,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      },
+      "compare": {
+        "dateDebutMois": "2020-09-01",
+        "dateFinMois": "2020-09-30",
+        "codeConsoMois": "Z",
+        "nbJourCalendrierMois": 30,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 12,
+        "moyenneKwhJourMois": 31.6,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 948,
+        "consoHautMois": 0,
+        "consoTotalMois": 948,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-08-01",
+        "dateFinMois": "2021-08-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 20,
+        "moyenneKwhJourMois": 11.7,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 363,
+        "consoHautMois": 0,
+        "consoTotalMois": 363,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      },
+      "compare": {
+        "dateDebutMois": "2020-08-01",
+        "dateFinMois": "2020-08-31",
+        "codeConsoMois": "Z",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 17,
+        "moyenneKwhJourMois": 25.0,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 775,
+        "consoHautMois": 0,
+        "consoTotalMois": 775,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-07-01",
+        "dateFinMois": "2021-07-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 18,
+        "moyenneKwhJourMois": 14.4,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 447,
+        "consoHautMois": 0,
+        "consoTotalMois": 447,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-06-01",
+        "dateFinMois": "2021-06-30",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 30,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 18,
+        "moyenneKwhJourMois": 16.4,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 491,
+        "consoHautMois": 0,
+        "consoTotalMois": 491,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-05-01",
+        "dateFinMois": "2021-05-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 12,
+        "moyenneKwhJourMois": 36.3,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 1124,
+        "consoHautMois": 0,
+        "consoTotalMois": 1124,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-04-01",
+        "dateFinMois": "2021-04-30",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 30,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": 7,
+        "moyenneKwhJourMois": 59.6,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 1789,
+        "consoHautMois": 0,
+        "consoTotalMois": 1789,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-03-01",
+        "dateFinMois": "2021-03-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": -2,
+        "moyenneKwhJourMois": 88.3,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 2736,
+        "consoHautMois": 0,
+        "consoTotalMois": 2736,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-02-01",
+        "dateFinMois": "2021-02-28",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 28,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": -9,
+        "moyenneKwhJourMois": 109.6,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 3068,
+        "consoHautMois": 0,
+        "consoTotalMois": 3068,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    },
+    {
+      "courant": {
+        "dateDebutMois": "2021-01-01",
+        "dateFinMois": "2021-01-31",
+        "codeConsoMois": "R",
+        "nbJourCalendrierMois": 31,
+        "presenceTarifDTmois": false,
+        "tempMoyenneMois": -8,
+        "moyenneKwhJourMois": 113.5,
+        "affichageTarifFlexMois": false,
+        "consoRegMois": 3517,
+        "consoHautMois": 0,
+        "consoTotalMois": 3517,
+        "zoneMessageHTMLMois": null,
+        "indPresenceCodeEvenementMois": false
+      }
+    }
+  ]
+}
