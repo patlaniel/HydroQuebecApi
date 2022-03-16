@@ -145,7 +145,6 @@ namespace HydroQuebecApi
 
         }
 
-
         public async Task SelectCustomerByIndexAsync(int index, bool force = false)
         {
             if (Accounts.Count == 0)
@@ -260,6 +259,9 @@ namespace HydroQuebecApi
 
             return results1.results;
         }
+
+        public string GetLastResponseWithJsonConversionError() => httpClient.GetLastResponseWithJsonConversionError();
+
         private async Task<IList<ResultWithComparison<T>>> FetchDataWithComparisonAsync<T>(string url, Dictionary<string, string> queries = null)
         {
             if (currentCustomerId == null || currentAccoutId == null)

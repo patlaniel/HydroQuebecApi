@@ -10,6 +10,8 @@ namespace HydroQuebecApi.Infrastructure
 {
     public static class HttpClientExtension
     {
+        public static string LastResponseWithJsonConversionError = string.Empty;
+
         private static string accessToken = null;
 
         public static void SetAccessToken(this HttpClient httpClient, string accessToken) => HttpClientExtension.accessToken = accessToken;
@@ -94,8 +96,19 @@ namespace HydroQuebecApi.Infrastructure
                 }
             };
 
-            return JsonSerializer.Deserialize<T>(responseStr, serializeOptions);
+            try
+            {
+                return JsonSerializer.Deserialize<T>(responseStr, serializeOptions);
+            }
+            catch (Exception ex)
+            {
+                LastResponseWithJsonConversionError = $"url={url}\nerror={ex.Message}\n{responseStr}";
+                throw;
+            }
         }
+
+        public static string GetLastResponseWithJsonConversionError(this HttpClient _) => LastResponseWithJsonConversionError;
+
 
     }
 }
