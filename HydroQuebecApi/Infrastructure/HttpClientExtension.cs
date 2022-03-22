@@ -92,7 +92,8 @@ namespace HydroQuebecApi.Infrastructure
             {
                 Converters =
                 {
-                    new Int32JsonConverter()
+                    new Int32JsonConverter(),
+                    new DoubleJsonConverter()
                 }
             };
 
