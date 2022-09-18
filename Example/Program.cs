@@ -1,4 +1,7 @@
-﻿using System;
+﻿using HydroQuebecApi.Infrastructure;
+using HydroQuebecApi.Models;
+using System;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace HydroQuebecApi
