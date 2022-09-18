@@ -12,4 +12,9 @@
     <RepositoryUrl>https://github.com/patlaniel/HydroQuebecApi</RepositoryUrl>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
 </Project>
